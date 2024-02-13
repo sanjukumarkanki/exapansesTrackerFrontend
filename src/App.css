@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+
+.bg-container{
+  background-image: url('https://blog.sheetgo.com/wp-content/uploads/2018/08/finance-templates-blog-images-07.jpg');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+
+
+.register-form-bg{
+  position: relative;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.round-circle{
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 50%;
+height: 50px;
+width: 50px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.sidebar-dashboard-gird-container{
+  display: grid;
+  grid-template-areas: "header header header header"
+  "main main main main";  
+}
+
+@media screen and (min-width : 768px) {
+  .sidebar-dashboard-gird-container{
+    display: grid;
+    grid-template-areas: "sidebar main main main main main main main main";
+  }
+}
+
+.sidebar{
+  display: none;
+}
+
+@media screen and (min-width : 768px) {
+  .sidebar{
+    padding: 10px;
+    display: inline;
+    grid-area: sidebar;
+    min-height: 100vh;
+    background-color: #000;
+  }
+}
+
+
+
+.dashboard{
+  grid-area: main;
+  min-height: 100vh;
+  background-color: #e5e5e5;
+}
+

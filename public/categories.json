@@ -1,0 +1,86 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Electronics",
+        "products": [
+          {
+            "id": 101,
+            "name": "Laptop",
+            "price": 999,
+            "description": "A powerful laptop for all your computing needs.",
+            "image": "laptop.jpg"
+          },
+          {
+            "id": 102,
+            "name": "Smartphone",
+            "price": 699,
+            "description": "Stay connected with the latest smartphone technology.",
+            "image": "smartphone.jpg"
+          },
+          {
+            "id": 103,
+            "name": "Headphones",
+            "price": 149,
+            "description": "Immerse yourself in high-quality audio with these headphones.",
+            "image": "headphones.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Clothing",
+        "products": [
+          {
+            "id": 201,
+            "name": "T-Shirt",
+            "price": 19,
+            "description": "A comfortable and stylish t-shirt for everyday wear.",
+            "image": "tshirt.jpg"
+          },
+          {
+            "id": 202,
+            "name": "Jeans",
+            "price": 39,
+            "description": "Classic jeans that never go out of style.",
+            "image": "jeans.jpg"
+          },
+          {
+            "id": 203,
+            "name": "Dress",
+            "price": 59,
+            "description": "Elegant dress for special occasions.",
+            "image": "dress.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Home & Kitchen",
+        "products": [
+          {
+            "id": 301,
+            "name": "Coffee Maker",
+            "price": 79,
+            "description": "Start your day with a freshly brewed cup of coffee.",
+            "image": "coffeemaker.jpg"
+          },
+          {
+            "id": 302,
+            "name": "Blender",
+            "price": 49,
+            "description": "Blend your favorite fruits and vegetables into delicious smoothies.",
+            "image": "blender.jpg"
+          },
+          {
+            "id": 303,
+            "name": "Cookware Set",
+            "price": 129,
+            "description": "High-quality cookware set for all your cooking needs.",
+            "image": "cookwareset.jpg"
+          }
+        ]
+      }
+    ]
+  }
+  

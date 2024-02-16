@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import transactionReducer from "./transactionSlice";
+import productSlice from "./transactionSlice";
 
 const store = configureStore({
   reducer: {
-    transactions: transactionReducer,
+    products: productSlice,
   },
 });
 

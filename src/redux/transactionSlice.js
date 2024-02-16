@@ -1,16 +1,16 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const transactionSlice = createSlice({
-  name: "transactions",
+const productSlice = createSlice({
+  name: "products",
   initialState: {
-    transactionList: [],
+    activeTab: 'electronics',
   },
   reducers: {
-    addTransaction: (state, action) => {
-      state.transactionList = action.payload;
+    activeTabSet: (state, action) => {
+      state.activeTab = action.payload;
     },
   },
 });
 
-export const { addTransaction, updateUserDetails } = transactionSlice.actions;
-export default transactionSlice.reducer;
+export const { activeTabSet } = productSlice.actions;
+export default productSlice.reducer;
